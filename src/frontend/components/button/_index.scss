@@ -1,0 +1,20 @@
+.Button {
+  display: inline-block;
+  color: white;
+  background: #FB8C00;
+  text-decoration: none;
+  vertical-align: middle;
+  max-height: 38px;
+  line-height: 38px;
+  padding: 0 20px;
+  border-radius: 5px;
+
+  &:hover, &:active, &:focus {
+    background: #FFA726;
+    color: white;
+  }
+}
+
+.Button--link {
+  text-transform: uppercase;
+}

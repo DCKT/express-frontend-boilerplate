@@ -15,7 +15,7 @@ const config = {
     iconBuild,
   },
   scripts: {
-    watchPath: './assets/javascripts/**/*.js',
+    watchPath: './src/frontend/**/*.js',
     iconBuild,
   },
 }

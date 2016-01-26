@@ -2,6 +2,6 @@
 
 export default {
   init() {
-    console.log('Common') =
+    console.log('Common');
   }
 }

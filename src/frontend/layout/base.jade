@@ -1,14 +1,23 @@
+include ../components/button/index.jade
+include ../components/headband/index.jade
+
+
 <!DOCTYPE html>
 html(lang="fr")
 head
   meta(charset="UTF-8")
   title Jobby
   
+  link(href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css')
+  link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
   link(rel="stylesheet", href="stylesheets/common.css")
   block stylesheets
     
 body
-  block content
+  //- include ../components/navigation/index.jade
+
+  .Content
+    block content
 
   script(src="javascripts/common.bundle.js")
   block scripts

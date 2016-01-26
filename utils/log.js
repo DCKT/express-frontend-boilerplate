@@ -6,10 +6,10 @@ module.exports = {
   notice(message) {
     console.log(clc.blue.bold(message));
   },
-  error() {
+  error(message) {
     console.log(clc.red.bold(message));
   },
-  warning() {
+  warning(message) {
     console.log(clc.yellow(message));
   },
 };

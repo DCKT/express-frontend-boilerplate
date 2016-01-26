@@ -1,0 +1,12 @@
+//- Navigation component
+
+nav.Navigation
+
+  a.brand(href="/") Logo
+
+  .Navigation-list
+      +Link('/test', 'Chercheurs')
+      +Link('/test', 'Recruteurs')
+  
+  .Navigation-right
+    +ButtonLink('/register', 'Inscription')

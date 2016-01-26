@@ -11,7 +11,6 @@ module.exports = function(app, express) {
   app.set('view engine', 'jade');
   
 
-  console.log(path.join(__dirname, '../public'))
   app.use(express.static(path.join(__dirname, '../public')));
   app.use(express.static(path.join(__dirname, '../uploads')));
 

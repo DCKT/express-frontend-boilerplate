@@ -1,10 +1,10 @@
-webpackJsonp([1,2],[
+webpackJsonp([1],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	var _common = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"common.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var _common = __webpack_require__(1);
 
 	var _common2 = _interopRequireDefault(_common);
 

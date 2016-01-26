@@ -1,5 +1,13 @@
-$test: #555555;
+@import "layout/_base.scss";
+
+@import "components/button/_index.scss";
+@import "components/navigation/_index.scss";
 
 body {
-  color: $tesdt;
+  background: #e5eaed;
+  font-family: $mainFont;
+}
+
+.Content {
+  padding-top: 85px;
 }

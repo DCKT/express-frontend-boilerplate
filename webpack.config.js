@@ -10,7 +10,9 @@ let entries   = {};
 const commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.bundle.js');
 
 pages.forEach(page => {
-  entries[page] = `./src/frontend/pages/${page}/index.js`;
+  if (page != 'misc') {
+    entries[page] = `./src/frontend/pages/${page}/index.js`;
+  }
 });
 
 module.exports = {

@@ -91,4 +91,21 @@
 /******/ 	__webpack_require__.p = "";
 /******/ })
 /************************************************************************/
-/******/ ([]);
+/******/ ([
+/* 0 */,
+/* 1 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = {
+	  init: function init() {
+	    console.log('Common');
+	  }
+	};
+
+/***/ }
+/******/ ]);

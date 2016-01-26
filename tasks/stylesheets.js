@@ -19,8 +19,8 @@ module.exports = function(config) {
           title: error ? 'ERROR task stylesheets' : 'Gulp task',
           message: error ? 'stylesheet build failed' : 'stylesheet build done',
           wait: false,
-          time: 1500,
-          icon: error ? config.iconBuild.error : config.iconBuild.valid 
+          time: 1000,
+          icon: error ? config.iconBuild.failed : config.iconBuild.valid 
         });
 
         error = false;
